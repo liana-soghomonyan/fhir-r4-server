@@ -1,4 +1,8 @@
-# NODE JS SERVER IMPLEMENTS FHIR R4 REST API for Patient and Clime resources
+# NodeJs server for FHIR R4 REST API for Patient and Claim resources
+
+1. Implement a Restful API to support CRUD operations on the https://www.hl7.org/fhir/ for Patient and Claim resources. For the simplicity only small subset of fields was included in the Database schema to represent Patient-Claim interaction, some fields that are described as an object (for example Address) are simplified to the string, for fields that have array of values such as Patient Name use only first element in the array if any.
+2. Design and implement a database schema (preferable SQL, provide explanation if using another type of database) for the above resources using Postgres and Sequelize.
+3. Search API that returns the related resources for the provided patient ID
 
 ## Features
 
